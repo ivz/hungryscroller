@@ -5,7 +5,7 @@ The automatic jQuery scroller that conveniently accompanies long web pages by al
 - Download the zip files
 - Open in Text Editor
 - Include the stylesheet in the head section of HTML:
-```
+```html
 <link rel="stylesheet" type="text/css" href="css/jquery.hungryscroller.css">
 ```    
 - Link to jQuery: 

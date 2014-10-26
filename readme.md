@@ -1,11 +1,9 @@
 #Hungry Scroller
-***
 The automatic jQuery scroller that conveniently accompanies long web pages by allowing your users to have a hands-off experience. 
 
 <br>
 
 ##Getting Started
-***
 1. Download the zip files
 2. Open in Text Editor
 3. Include the stylesheet in the head section of HTML:
@@ -33,7 +31,6 @@ The automatic jQuery scroller that conveniently accompanies long web pages by al
 <br>      
       
 ##Including Hungry Scroller in HTML
-***
 Add a scroll tab to allow users to start/stop HungryScroller and choose their own speed setting:
 <br>
 
@@ -54,15 +51,14 @@ Add the discrete munchkin images and audio:
     <img src="img/munch1.png" alt="" class="munch munch-top">
     <img src="img/munch2.png" alt="" class="munch munch-bottom">
     
-This a secret animation of an animated monster taking a bite of the user's screen, triggered when the user types "m u n c h"
+This a secret animation of an animated monster taking a bite of the user's screen, triggered when the user types: <br>"m u n c h"
 <br>
-See: [Example](http://ivz.github.io/hungryscroller/)
 
-      
+##Example
+[See Hungry Scroller in action](http://ivz.github.io/hungryscroller/).
 <br>      
       
 ##Adjusting Scroll Speed Settings
-***
 Speed will depend on the height of each individual page (longer pages will appear to scroll through faster than shorter ones):
 <br>
 
@@ -76,10 +72,7 @@ Speed will depend on the height of each individual page (longer pages will appea
 	
 <br>      
       
-##Example
-***
-[See Hungry Scroller in action](http://ivz.github.io/hungryscroller/).
-<br>
+
 
 
 

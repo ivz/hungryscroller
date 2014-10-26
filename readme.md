@@ -10,8 +10,7 @@ The automatic jQuery scroller that conveniently accompanies long web pages by al
 <br>
 ```
 <link rel="stylesheet" type="text/css" href="css/jquery.hungryscroller.css">
-```
-      
+```    
 4. Link to jQuery: 
 <br> 
 ```
@@ -22,7 +21,6 @@ The automatic jQuery scroller that conveniently accompanies long web pages by al
 ```
  <script type="text/javascript" src="js/mousetrap.min.js"></script>
 ```
-
 6. Link to HungryScroller: 
 <br>
 ```

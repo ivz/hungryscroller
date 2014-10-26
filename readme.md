@@ -1,24 +1,22 @@
 #Hungry Scroller
 The automatic jQuery scroller that conveniently accompanies long web pages by allowing your users to have a hands-off experience. 
 
-<br>
-
 ##Getting Started
-1. Download the zip files
-2. Open in Text Editor
-3. Include the stylesheet in the head section of HTML:
+- Download the zip files
+- Open in Text Editor
+- Include the stylesheet in the head section of HTML:
 ```
 <link rel="stylesheet" type="text/css" href="css/jquery.hungryscroller.css">
 ```    
-4. Link to jQuery: 
+- Link to jQuery: 
 ```
  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 ```
-5. Link to Mousetrap (for keybindings):
+- Link to Mousetrap (for keybindings):
 ```
  <script type="text/javascript" src="js/mousetrap.min.js"></script>
 ```
-6. Link to HungryScroller: 
+- Link to HungryScroller: 
 ```
  <script type="text/javascript" src="js/hungryscroller.js"></script> 
 ```      

@@ -10,24 +10,26 @@ The automatic jQuery scroller that conveniently accompanies long web pages by al
 2. Open in Text Editor
 3. Include the stylesheet in the head section of HTML:
 <br>
-
-      <link rel="stylesheet" type="text/css" href="css/jquery.hungryscroller.css">
+```
+<link rel="stylesheet" type="text/css" href="css/jquery.hungryscroller.css">
+```
       
 4. Link to jQuery: 
 <br> 
-    
-      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+```
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+```
 5. Link to Mousetrap (for keybindings):
 <br>
-       
-      <script type="text/javascript" src="js/mousetrap.min.js"></script>
+```
+ <script type="text/javascript" src="js/mousetrap.min.js"></script>
+```
 
 6. Link to HungryScroller: 
 <br>
-
-      <script type="text/javascript" src="js/hungryscroller.js"></script> 
-      
+```
+ <script type="text/javascript" src="js/hungryscroller.js"></script> 
+```      
 <br>      
       
 ##Including Hungry Scroller in HTML

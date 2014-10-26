@@ -1,0 +1,146 @@
+/*
+  ========================================
+  Demo Purposes
+  ========================================
+*/
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  font-size: 14px;
+}
+img.post {
+  display: block;
+  margin: 15px auto 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  max-width: 100%;
+}
+.socials {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+h1 {
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 100%;
+  margin: 0 0 30px 0;
+  padding: 25px 0;
+  border-bottom: 1px solid #333;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 1px 2px #333;
+  font-family: 'Comfortaa', cursive;
+  background: rgba(130,190,39,0.9);
+}
+h2 {
+  text-align: left;
+  font-size: 24px;
+  margin: 25px 0 0 0;
+  font-family: 'Comfortaa', cursive;
+}
+#posts {
+  padding-top: 150px;
+}
+.code {
+  margin: 40px 0;
+}
+pre {
+  padding-left: 5% !important;
+}
+footer {
+  padding: 30px 0;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Comfortaa', cursive;
+  color: #fff;
+  background: #272822;
+}
+a {
+  color: rgb(135,190,39);
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px solid rgb(135,190,39);
+}
+/*
+  ========================================
+  Actual PLugin
+  ========================================
+*/
+ul.scroller {
+  position: fixed;
+  top: 25%;
+  left: 0;
+  list-style-type: none;
+  padding: 0;
+}
+ul.speeds {
+  padding-left: 0;
+  display:none;
+  list-style-type: none;
+}
+ul.scroller li {
+  text-align: center;
+}
+ul.scroller li:hover {
+  background: #222;
+  cursor: pointer;
+}
+.scroller li {
+  background: rgba(51,51,51,0.6);
+  padding: 20px;
+  color: #fff;
+  position: relative;
+
+}
+.appear {
+  display: block;
+}
+.left-list-border {
+  border-left: 1px solid rgb(135,190,39);
+}
+.munch {
+  z-index: 9999;
+  display: none;
+  width: 100%;
+  position: fixed;
+}
+.munch-top {
+  top: 0;
+  margin-top: -35%;
+  
+}
+.munch-bottom {
+  bottom: 0;
+  margin-bottom: -35%; 
+}
+
+/*
+  ========================================
+  Demo Purposes - Media Queries
+  ========================================
+*/
+.apost {
+  width: 50%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 920px) {
+  .socials {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .socials {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .socials {
+    width: 100%;
+  }
+}
